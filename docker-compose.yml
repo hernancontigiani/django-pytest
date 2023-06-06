@@ -1,0 +1,13 @@
+version: "3.1"
+
+services:
+  back:
+    build: .
+    restart: always
+    container_name: django-pytest
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./back:/opt/back
+      - ./db:/prode/db
+    ports:
+      - "8000:8000"
