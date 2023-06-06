@@ -55,3 +55,7 @@ Launch test inside the project folder (back):
 ```sh
 pytest
 ```
+
+# Reference
+- https://djangostars.com/blog/django-pytest-testing/
+- https://pytest-django.readthedocs.io/en/latest/database.html
